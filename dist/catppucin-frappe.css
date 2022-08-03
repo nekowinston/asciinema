@@ -1,0 +1,122 @@
+.asciinema-theme-catppuccin-frappe {
+  background-color: #303446;
+}
+.asciinema-theme-catppuccin-frappe .asciinema-terminal {
+  color: #c6d0f5;
+  background-color: #303446;
+  border-color: #232634;
+}
+.asciinema-theme-catppuccin-frappe .fg-bg {
+  color: #303446;
+}
+.asciinema-theme-catppuccin-frappe .bg-fg {
+  background-color: #c6d0f5;
+}
+.asciinema-theme-catppuccin-frappe .fg-0 {
+  color: #51576d;
+}
+.asciinema-theme-catppuccin-frappe .bg-0 {
+  background-color: #51576d;
+}
+.asciinema-theme-catppuccin-frappe .fg-1 {
+  color: #e78284;
+}
+.asciinema-theme-catppuccin-frappe .bg-1 {
+  background-color: #e78284;
+}
+.asciinema-theme-catppuccin-frappe .fg-2 {
+  color: #a6d189;
+}
+.asciinema-theme-catppuccin-frappe .bg-2 {
+  background-color: #a6d189;
+}
+.asciinema-theme-catppuccin-frappe .fg-3 {
+  color: #e5c890;
+}
+.asciinema-theme-catppuccin-frappe .bg-3 {
+  background-color: #e5c890;
+}
+.asciinema-theme-catppuccin-frappe .fg-4 {
+  color: #8caaee;
+}
+.asciinema-theme-catppuccin-frappe .bg-4 {
+  background-color: #8caaee;
+}
+.asciinema-theme-catppuccin-frappe .fg-5 {
+  color: #f4b8e4;
+}
+.asciinema-theme-catppuccin-frappe .bg-5 {
+  background-color: #f4b8e4;
+}
+.asciinema-theme-catppuccin-frappe .fg-6 {
+  color: #81c8be;
+}
+.asciinema-theme-catppuccin-frappe .bg-6 {
+  background-color: #81c8be;
+}
+.asciinema-theme-catppuccin-frappe .fg-7 {
+  color: #b5bfe2;
+}
+.asciinema-theme-catppuccin-frappe .bg-7 {
+  background-color: #b5bfe2;
+}
+.asciinema-theme-catppuccin-frappe .fg-8 {
+  color: #626880;
+}
+.asciinema-theme-catppuccin-frappe .bg-8 {
+  background-color: #626880;
+}
+.asciinema-theme-catppuccin-frappe .fg-9 {
+  color: #e78284;
+}
+.asciinema-theme-catppuccin-frappe .bg-9 {
+  background-color: #e78284;
+}
+.asciinema-theme-catppuccin-frappe .fg-10 {
+  color: #a6d189;
+}
+.asciinema-theme-catppuccin-frappe .bg-10 {
+  background-color: #a6d189;
+}
+.asciinema-theme-catppuccin-frappe .fg-11 {
+  color: #e5c890;
+}
+.asciinema-theme-catppuccin-frappe .bg-11 {
+  background-color: #e5c890;
+}
+.asciinema-theme-catppuccin-frappe .fg-12 {
+  color: #8caaee;
+}
+.asciinema-theme-catppuccin-frappe .bg-12 {
+  background-color: #8caaee;
+}
+.asciinema-theme-catppuccin-frappe .fg-13 {
+  color: #f4b8e4;
+}
+.asciinema-theme-catppuccin-frappe .bg-13 {
+  background-color: #f4b8e4;
+}
+.asciinema-theme-catppuccin-frappe .fg-14 {
+  color: #81c8be;
+}
+.asciinema-theme-catppuccin-frappe .bg-14 {
+  background-color: #81c8be;
+}
+.asciinema-theme-catppuccin-frappe .fg-15 {
+  color: #a5adce;
+}
+.asciinema-theme-catppuccin-frappe .bg-15 {
+  background-color: #a5adce;
+}
+.asciinema-theme-catppuccin-frappe .fg-8,
+.asciinema-theme-catppuccin-frappe .fg-9,
+.asciinema-theme-catppuccin-frappe .fg-10,
+.asciinema-theme-catppuccin-frappe .fg-11,
+.asciinema-theme-catppuccin-frappe .fg-12,
+.asciinema-theme-catppuccin-frappe .fg-13,
+.asciinema-theme-catppuccin-frappe .fg-14,
+.asciinema-theme-catppuccin-frappe .fg-15 {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=catppucin-frappe.css.map */
