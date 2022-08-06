@@ -1,4 +1,4 @@
-@use "palette" as *;
+@use "_palette" as *;
 
 @each $flavour, $colour in $palette {
   $isLatte: $flavour == latte;
