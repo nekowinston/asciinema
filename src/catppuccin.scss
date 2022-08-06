@@ -1,0 +1,128 @@
+@use "palette" as *;
+
+@each $flavour, $colour in $palette {
+  $isLatte: $flavour == latte;
+
+  .asciinema-theme-catppuccin-#{$flavour} {
+    background-color: map-get($colour, base);
+
+    .asciinema-terminal {
+      color: map-get($colour, text);
+      background-color: map-get($colour, base);
+      border-color: map-get($colour, crust);
+    }
+
+    .fg-bg {
+      color: map-get($colour, base);
+    }
+    .bg-fg {
+      background-color: map-get($colour, text);
+    }
+    .fg-0 {
+      color: if($isLatte, map-get($colour, subtext1), map-get($colour, surface1));
+    }
+    .bg-0 {
+      background-color: if($isLatte, map-get($colour, subtext1), map-get($colour, surface1));
+    }
+    .fg-1 {
+      color: map-get($colour, red);
+    }
+    .bg-1 {
+      background-color: map-get($colour, red);
+    }
+    .fg-2 {
+      color: map-get($colour, green);
+    }
+    .bg-2 {
+      background-color: map-get($colour, green);
+    }
+    .fg-3 {
+      color: map-get($colour, yellow);
+    }
+    .bg-3 {
+      background-color: map-get($colour, yellow);
+    }
+    .fg-4 {
+      color: map-get($colour, blue);
+    }
+    .bg-4 {
+      background-color: map-get($colour, blue);
+    }
+    .fg-5 {
+      color: map-get($colour, pink);
+    }
+    .bg-5 {
+      background-color: map-get($colour, pink);
+    }
+    .fg-6 {
+      color: map-get($colour, teal);
+    }
+    .bg-6 {
+      background-color: map-get($colour, teal);
+    }
+    .fg-7 {
+      color: if($isLatte, map-get($colour, surface2), map-get($colour, subtext1));
+    }
+    .bg-7 {
+      background-color: if($isLatte, map-get($colour, surface2), map-get($colour, subtext1));
+    }
+    .fg-8 {
+      color: if($isLatte, map-get($colour, subtext0), map-get($colour, surface2));
+    }
+    .bg-8 {
+      background-color: if($isLatte, map-get($colour, subtext0), map-get($colour, surface2));
+    }
+    .fg-9 {
+      color: map-get($colour, red);
+    }
+    .bg-9 {
+      background-color: map-get($colour, red);
+    }
+    .fg-10 {
+      color: map-get($colour, green);
+    }
+    .bg-10 {
+      background-color: map-get($colour, green);
+    }
+    .fg-11 {
+      color: map-get($colour, yellow);
+    }
+    .bg-11 {
+      background-color: map-get($colour, yellow);
+    }
+    .fg-12 {
+      color: map-get($colour, blue);
+    }
+    .bg-12 {
+      background-color: map-get($colour, blue);
+    }
+    .fg-13 {
+      color: map-get($colour, pink);
+    }
+    .bg-13 {
+      background-color: map-get($colour, pink);
+    }
+    .fg-14 {
+      color: map-get($colour, teal);
+    }
+    .bg-14 {
+      background-color: map-get($colour, teal);
+    }
+    .fg-15 {
+      color: if($isLatte, map-get($colour, surface1), map-get($colour, subtext0));
+    }
+    .bg-15 {
+      background-color: if($isLatte, map-get($colour, surface1), map-get($colour, subtext0));
+    }
+    .fg-8,
+    .fg-9,
+    .fg-10,
+    .fg-11,
+    .fg-12,
+    .fg-13,
+    .fg-14,
+    .fg-15 {
+      font-weight: bold;
+    }
+  }
+}
